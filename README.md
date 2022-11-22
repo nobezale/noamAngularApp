@@ -1,0 +1,2 @@
+# noamAngularApp
+self learning angular
