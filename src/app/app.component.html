@@ -1,8 +1,11 @@
 
 <app-header [message]="message" [titleHeader]="title" (messageEvent)="recieveMessage($event)"></app-header>
 <div class="content" role="main">
-<div>{{message}}</div>
+<div>{{message}}
 <button (click)="sendMessageToHeader()">send data to header</button>
-
+</div>
+<div class="container_pages">
+<router-outlet></router-outlet>
+</div>
 </div>
  

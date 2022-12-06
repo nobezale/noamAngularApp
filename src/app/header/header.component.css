@@ -30,3 +30,11 @@
   .toolbar #youtube-logo:hover {
     opacity: 0.8;
   }
+li{
+  float: left;
+    color:red;
+    margin-left: 2vw;
+  }
+  a{
+    color:white;
+  }

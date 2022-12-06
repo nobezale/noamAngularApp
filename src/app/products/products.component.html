@@ -1,0 +1,9 @@
+<h2>Products List</h2>
+<ul class="products_list">
+  <li *ngFor="let product of productsList" (click)="goToProduct(product)">
+    <button type="button" class="product_item">
+      <span class="name">{{product.name}}</span>
+      <img src={{product.img}}/>
+    </button>
+  </li>
+</ul>
